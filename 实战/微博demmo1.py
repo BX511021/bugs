@@ -42,6 +42,8 @@ def get_content(html_1):
     return {"article_title":article_title,"article_content":article_content}
 
 def run():
+
+
     # 获取五十页的关键字文章
     n = 100
     article_content = []
